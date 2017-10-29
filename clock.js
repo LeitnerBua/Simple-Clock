@@ -63,8 +63,8 @@ function Clock() {
         line(0, 0, this.radius * cos(minutesAngle), this.radius * sin(minutesAngle));
 
         strokeWeight(10);
-        stroke(100);
-        line(0, 0, this.radius * (cos(hoursAngle) / 2), this.radius * (cos(hoursAngle) / 2));
+        stroke(0);
+        line(0, 0, this.radius * (cos(hoursAngle) / 2), this.radius * (sin(hoursAngle) / 2));
         pop();
 
 
